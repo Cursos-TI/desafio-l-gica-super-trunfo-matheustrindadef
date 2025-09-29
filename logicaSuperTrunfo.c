@@ -90,7 +90,7 @@ int main() {
     printf("Estado: %s\n", estado);
     printf("Código: %s\n", codigo);
     printf("Nome da Cidade: %s\n", cidade);
-    printf("População: %d\n", populacao);
+    printf("População: %ld\n", populacao);
     printf("Área: %.2f km²\n", area);
     printf("PIB: %.2f bilhões de reais\n", pib);
     printf("Número de pontos túristicos: %d\n", pontos_turisticos);
@@ -108,7 +108,7 @@ int main() {
     printf("Estado: %s\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
-    printf("População: %d\n", populacao2);
+    printf("População: %ld\n", populacao2);
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de pontos túristicos: %d\n", pontos_turisticos2);
@@ -136,8 +136,8 @@ int main() {
     case 1:
         printf("Comparação de cartas (Atributo: População):\n");
 
-        printf("Carta 1 - %s: %d\n", cidade, populacao);
-        printf("Carta 2 - %s: %d\n", cidade2, populacao2);
+        printf("Carta 1 - %s: %ld\n", cidade, populacao);
+        printf("Carta 2 - %s: %ld\n", cidade2, populacao2);
         if (populacao > populacao2){
             printf("Resultado: Carta 1 (%s) venceu!\n", cidade);
         } else if (populacao < populacao2){

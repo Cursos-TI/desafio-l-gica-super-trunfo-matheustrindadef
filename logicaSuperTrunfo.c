@@ -122,7 +122,7 @@ int main() {
     printf("*******************************\n");
     // Comparação das cartas Nivel novato - Tema 3 com if
     // Menu de comparação com switch
-    printf("Para escolher o atributo População digite 1:/n");
+    printf("Para escolher o atributo População digite 1:\n");
     printf("Para escolher o atributo Área digite 2:\n");
     printf("Para escolher o atributo PIB digite 3:\n");
     printf("Para escolher o atributo Densidade Populacional digite 4:\n");

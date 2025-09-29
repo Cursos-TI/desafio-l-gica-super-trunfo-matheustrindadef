@@ -142,6 +142,8 @@ int main() {
             printf("Resultado: Carta 1 (%s) venceu!\n", cidade);
         } else if (populacao < populacao2){
             printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
+        } else {
+            printf("Houve empate!!\n");
         }
         printf("*******************************\n");
         break;
@@ -156,6 +158,8 @@ int main() {
             printf("Resultado: Carta 1 (%s) venceu!\n", cidade);
         } else if (area < area2){
             printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
+        } else {
+            printf("Houve empate!!\n");
         }
         printf("*******************************\n");
         break;
@@ -169,6 +173,8 @@ int main() {
             printf("Resultado: Carta 1 (%s) venceu!\n", cidade);
         } else if (pib < pib2){
             printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
+        } else {
+            printf("Houve empate!!\n");
         }
         printf("*******************************\n");
         break;
@@ -182,6 +188,8 @@ int main() {
             printf("Resultado: Carta 1 (%s) venceu!\n", cidade);
         } else if (denspop < denspop2){
             printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
+        } else {
+            printf("Houve empate!!\n");
         }
         printf("*******************************\n");
         break;
@@ -194,6 +202,8 @@ int main() {
             printf("Resultado: Carta 1 (%s) venceu!\n", cidade);
         } else if (superpoder > superpoder2){
             printf("Resultado: Carta 2 (%s) venceu!\n", cidade2);
+        } else {
+            printf("Houve empate!!\n");
         }
         printf("*******************************\n");
         break;
